@@ -1,0 +1,32 @@
+<view class="div_main">
+ <view class="div_Details"><view class='flex-wrp-row item'>
+    <view class='item-left flex-wrp-row'>
+      <text class='text'>项目名称</text>
+    </view>
+    <view class='item-right flex-wrp-row'>
+     <text class="texts">{{projectname}}</text>
+    </view>
+  </view>
+</view>
+ <view class="div_Details"><view class='flex-wrp-row item'>
+    <view class='item-left flex-wrp-row'>
+      <text class='text'>供应商名称</text>
+    </view>
+    <view class='item-right flex-wrp-row'>
+       <input bindblur="iptphone"  placeholder="请输入"  value="{{iptphone}}"></input>
+    </view>
+  </view>
+</view>
+
+
+ <view class="div_Details arrll"><view class='flex-wrp-row item'>
+    <view class='item-left flex-wrp-row'>
+      <text class='text'>统一社会信用码</text>
+    </view>
+    <view class='item-right flex-wrp-row'>
+     <input bindinput="bindKeyInput"  placeholder="请输入" value="{{iptunit}}"></input>
+    </view>
+  </view>
+</view>
+  <view class="button_di" bindtap="jump">绑定</view>
+</view>

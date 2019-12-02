@@ -1,0 +1,162 @@
+
+.div_main{
+  width: 100%;
+  height: 97vh;
+  background: #f5f6fa;
+  padding-top: 1rem;
+  
+}
+.div_Details{
+  width: 95vw;
+   margin: 0 auto;
+   background: white;
+   margin-bottom: 0.7rem;
+    border-radius:15px;
+   height: 40pt;
+  }
+  .text_meeting{
+    color: #797979
+  }
+  .text_name{
+     color: #141414
+  }
+  .flex-wrp-row {
+  display: flex;
+  flex-direction: row;
+}
+ .texts{
+   color: black
+ }
+.item {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 40pt;
+}
+ 
+.item-left {
+   flex: 1; /* 重要 */
+   align-items:center;
+   font-size: 16px;
+   color: #797979
+}
+ 
+.item-right {
+  position: relative;
+  align-items:center;
+  font-size: 16px;
+  color: #141414
+}
+.con_map{
+   width: 90vw;
+   margin: 0 auto;
+   height: 20vh;
+   background: white;
+   margin-bottom: 0.7rem;
+}
+ 
+.div_Details view{
+   font-size: 16px;
+   color: #797979;
+   text-align: center;
+}
+.yangshi_0{
+ width: 2rem;
+ text-align:center;
+align-items:center;
+justify-content: center;
+margin: auto; 
+}
+.yangshi_1{
+  width: 4rem;
+  text-align:center;
+align-items:center;
+justify-content: center;
+margin: auto; 
+}
+.yangshi_2{
+  text-align:center;
+align-items:center;
+justify-content: center;
+margin: auto; 
+   width: 6rem;
+}
+.yangshi_4{
+    text-align:center;
+align-items:center;
+justify-content: center;
+margin: auto; 
+   width: 8rem;
+}
+.con_Check{
+  width: 75vw;
+  height: 3rem;
+  font-size: 16px;
+  margin: 0 auto;
+   margin-top: 5rem;
+   margin-bottom: 3rem;
+    text-align: center;
+    line-height:  3rem;
+    color: white;
+ background: linear-gradient(to right, #0e82d7, #4261e1
+);
+}
+.item-img{
+  margin-top: 3px;
+  width: 30rpx;
+  height: 25rpx;
+  margin-right: 0.5rem;
+}
+.xiala{
+    position: absolute;
+  width: 95vw;
+  margin:  0 auto;
+  background: white;
+   margin-top: -0.8rem;
+   overflow: hidden;
+   left: 50%;
+   margin-left: -47.5vw;
+   z-index: 15
+}
+.xiala view{
+ font-size: 16px;
+ height: 7vh;
+ line-height: 7vh;
+ padding-left: 20px;
+}
+.item_man{
+  border-bottom: 1px solid silver
+}
+.arrll{
+  margin-top: 0.7rem;
+}
+.item-right input{
+  width: 30vw;
+}
+.button_di{
+  width: 85%;
+  height: 35pt;
+  background: #6564DB;
+   border-radius: 22pt;
+   margin:  0 auto;
+   line-height: 35pt;
+   font-size: 16pt;
+   color: white;
+   text-align: center;
+   margin-top: 80pt;
+}
+.picker_s{
+  width: 30vw;
+  cursor: auto;
+display: block;
+text-overflow: clip;
+white-space: nowrap;
+font-family: UICTFontTextStyleBody;
+min-height: 1.4rem;
+ line-height: 35pt;
+}
+.picker_s image{
+  width: 30px;
+  height: 30px;
+  margin-top: 12.5px;
+}

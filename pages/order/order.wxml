@@ -1,0 +1,72 @@
+<loading hidden="{{hidden}}">
+  正在获取信息...
+</loading>
+<view class="div_main">
+  <view class="div_Details arrll"><view class='flex-wrp-row item'>
+    <view class='item-left flex-wrp-row'>
+      <text class='text'>请选择材料类型</text>
+    </view>
+     <view class='item-right flex-wrp-row'>
+     <picker bindchange="optionTap"  class="picker_s" value="{{pickindex}}" range="{{selectData}}">
+    {{selectData[pickindex]}}
+  </picker>
+    </view>
+  </view>
+</view>
+
+ <view wx-if="{{rebar}}"  class="div_Details arrll"><view class='flex-wrp-row item'>
+    <view class='item-left flex-wrp-row'>
+      <text class='text'>扫码二维码</text>
+    </view>
+    <view class='item-right flex-wrp-row'>
+    <view class="picker_s"  bindtap="Jump" >
+      <image  wx-if="{{shao}}" src="../../img/sao.png"></image>
+      <text wx-if="{{!shao}}">{{OnlySign}}</text>
+       </view>
+ 
+    </view>
+  </view>
+</view>
+ <view class="div_Details"><view class='flex-wrp-row item'>
+    <view class='item-left flex-wrp-row'>
+      <text class='text'>订单号</text>
+    </view>
+    <view class='item-right flex-wrp-row'>
+       <input bindblur="number"  placeholder="必填"  value="{{number}}"></input>
+    </view>
+  </view>
+</view>
+
+ <view class="div_Details arrll"><view class='flex-wrp-row item'>
+    <view class='item-left flex-wrp-row'>
+      <text class='text'>车牌号</text>
+    </view>
+    <view class='item-right flex-wrp-row'>
+     <input bindblur="carlicense"  placeholder="必填" value="{{carlicense}}"></input>
+    </view>
+  </view>
+</view>
+
+
+
+ <view wx-if="{{cement}}"   class="div_Details arrll"><view class='flex-wrp-row item'>
+    <view class='item-left flex-wrp-row'>
+      <text class='text'>混凝土标号</text>
+    </view>
+    <view class='item-right flex-wrp-row'>
+     <input bindblur="concrete" value="{{concrete}}"></input>
+    </view>
+  </view>
+</view>
+ <view class="div_Details arrll"><view class='flex-wrp-row item'>
+    <view class='item-left flex-wrp-row'>
+      <text class='text'>数量</text>
+    </view>
+    <view class='item-right flex-wrp-row'>
+     <input bindblur="quantity" type="number"  value="{{quantity}}"></input>
+    </view>
+  </view>
+
+</view>
+  <view class="button_di" bindtap="cilic_skip">确认</view>
+</view>

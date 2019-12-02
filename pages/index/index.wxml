@@ -1,0 +1,26 @@
+<view class="div-index">
+  <view class="div_arr">
+    <view class="index-title">
+      <view class="text-title">
+        <text>项目名称</text>
+      </view>
+      <view class="text-title">
+        <text>供应数量</text>
+      </view>
+
+    </view>
+    <view class="index-content" data-index='{{index}}'  wx:for="{{arr}}" key="index" bindtap="click_car">
+      <view class="text-titles">
+        <text>{{item.ProjectName}}</text>
+      </view>
+      <view class="text-titles">
+        <text>{{item.TotalSize}}</text>
+      </view>
+
+    </view>
+    
+  </view>
+</view>
+<view class="dibu">
+  <image bindtap="Jump" src="../../img/bottom_nav@3x.png"></image>
+</view>
